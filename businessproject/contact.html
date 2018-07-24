@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <script src = "js/contact.js" type="text/javascript"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdQgYkHcGPbrscc-Niafm7TRWUr-TVZIk&callback=initMap">
+  </script>
+
+</head>
+
+<body>
+  <title>Contact Us!</title>
+  <div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a class="active">Contact Us</a></li>
+      <!-- <li><a href="DiscoverpageNew.html">Discover</a></li>
+      <li><a href="SignUpPage.html">Sign Up</a></li>
+      <li><a href="ab">About Us</a></li> -->
+    </ul>
+  </div>
+
+  <table>
+      <tr>
+        <td width=500px>
+          <form>
+            Find a Location: <input type="text" name="location" id="ziplocator">
+            <!-- <input type="submit" value="submit"> -->
+            <button onclick="findLocation()">Go!</button>
+          </form>
+        </td>
+        <td>
+          <h1>
+            Café du Ciel<img src="images/cloud.png" width=20% alt="Photo of inside Cafe du Ciel"></img>
+          </h1>
+        </td>
+     </tr>
+  </table>
+
+   <div id="map"></div>
+
+
+
+  <!-- Contact Us Table -->
+   <table>
+     <tr>
+       <td class="contact">
+         <p id=Banner5 class="regular">
+           <!-- <div> Hours</div>
+           <div> Monday-Friday</div>
+           <div>6:00am-9:00pm</div>
+           <div> Saturday-Sunday</div>
+           <div>9:00am-6:00pm</div> -->
+           Contact Us<br/>Facebook: CafeduCiel<br/>Twitter: CafeduCiel<br/>Instagram: CafeduCiel<br/>Email: cafeduciel@gmail.com</br>Phone Number: </br>(202)555-0156
+         </p>
+       </td>
+       <td>
+         <!-- <p id=haha class="regular">
+           Our locations:
+           <h3>Los Angeles: 1450-B 3rd Street Promenade, Santa Monica, CA 90401</h3>
+           <h3>San Francisco: 40 Grant Ave, San Francisco, CA 94133</h3>
+           <h3>New York: 690 Madison Ave, New York, NY 10065</h3>
+         </p> -->
+         <p id="haha">Our Locations</p>
+
+
+        <!-- Locations slideshow code -->
+
+        <!-- Slideshow container -->
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="images/back1.jpg" style="width:100%">
+              <div class="centered black">Los Angeles</div><div class="centeredbody black">1450-B 3rd Street Promenade, Santa Monica, CA 90401</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/back2.jpg" style="width:100%">
+              <div class="centered white">New York</div><div class="centeredbody white">690 Madison Ave, New York, NY 10065</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/back3.jpg" style="width:100%">
+              <div class="centered white">San Francisco</div><div class="centeredbody white">40 Grant Ave, San Francisco, CA 94133</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/back4.jpg" style="width:100%">
+              <div class="centered black">Dallas</div><div class="centeredbody black">1400 Elm St #3750, Dallas, TX 75202</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/back5.jpg" style="width:100%">
+              <div class="centered white">Chicago</div><div class="centeredbody white">520 N Clark St, Chicago, IL 60654</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/back6.jpg" style="width:100%">
+              <div class="centered black">Miami</div><div class="centeredbody black">1720 NW 20th St, Miami, FL 33142</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/back7.jpg" style="width:100%">
+              <div class="centered white">Seattle</div><div class="centeredbody white">1400 1st Ave, Seattle, WA 98101</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/back8.jpg" style="width:100%">
+              <div class="centered black">Washington DC</div><div class="centeredbody black">1601 14th St NW, Washington, DC 20009</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+          </div>
+       </td>
+     </tr>
+   </table>
+
+  <footer>
+    <p class="foot">Made with <img src="images/heart.png" width="20px"></img> by Cafe du Ciel.</p>
+  </footer>
+<script src = "js/contact.js" type="text/javascript"></script>
+ <!-- <script src="js/contact.js" type="text/javascript"></script> -->
+
+</body>
+</html>
